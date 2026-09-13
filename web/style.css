@@ -39,3 +39,31 @@ button {
     font: inherit;
     cursor: pointer;
 }
+
+@media(max-width:700px) {
+    .pair {
+        flex-direction: column;
+    }
+
+    .app {
+        padding: 24px 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .painting-card img {
+        height: 280px;
+    }
+}
+
+button:hover {
+    background: #173e35;
+    border-color: #173e35;
+}
+
+button:focus-visible {
+    outline: 3px solid#a55a21;
+    outline-offset: 3px;
+}
